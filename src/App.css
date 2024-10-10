@@ -1,38 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #43425D;
   color: white;
+  padding: 20px;
+  flex-shrink: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar ul {
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar ul li {
+  padding: 15px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.sidebar ul li:hover {
+  background-color: #0000001A;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.content {
+  background-color: #F0F0F7;
+  padding: 30px;
+  flex-grow: 1;
+}
+
+.calendar-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-left: 75px;
+  height: 700px;
+  width: 75%;
+}
+
+.calendar-view {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #4D4F5C;
+}
+
+.calendar-title {
+  margin-left: 75px;
+  font-size: 28px;
+  margin-top: 15px;
+  color: #43425D;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white; 
+  height: 70px; 
+  position: sticky;
+  top: 0; 
+}
+
+.header h2 {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.header input[type="text"] {
+  padding: 10px;
+  width: 198px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+}
+
+.header-container {
+  width: calc(100% - 260px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info .notifications {
+  margin-right: 20px;
+}
+.user-info .notifications i {
+  margin-right: 30px;
+}
+
+.user-info .user-name {
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.user-info .user-avatar {
+  background-image: url("icons/Avatar.png");
+  background-size: contain;
+  width: 38px;
+  height: 38px;
+  margin-right: 20px;
+  margin-left: 11px;
+  display: inline-block;
+}
+
+.bell-icon {
+  background-image: url("icons/bell-icon.svg");
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.support-icon {
+  background-image: url("icons/SupportIocn.png");
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.text-icon {
+  background-image: url("icons/Path9.png");
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.arrow-icon {
+  background-image: url("icons/Path26.png");
+  background-size: contain;
+  width: 11px;
+  height: 7px;
+  display: inline-block;
+}
+
+
+.search-icon {
+  background-image: url("icons/icon_search.png");
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.title-header {
+  padding-left: 20px;
+  background-color: #3f3f57;
+  display: flex;
+  align-items: center;
+  width: 260px;
+  height: 70px;
 }
