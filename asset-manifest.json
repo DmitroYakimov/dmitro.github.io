@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dmitro.github.io/static/css/main.49fb08a0.css",
-    "main.js": "/dmitro.github.io/static/js/main.b6ed1f27.js",
+    "main.css": "/dmitro.github.io/static/css/main.025ac993.css",
+    "main.js": "/dmitro.github.io/static/js/main.25a881c6.js",
     "static/js/453.5ad74039.chunk.js": "/dmitro.github.io/static/js/453.5ad74039.chunk.js",
     "index.html": "/dmitro.github.io/index.html",
     "static/media/bell-icon.svg": "/dmitro.github.io/static/media/bell-icon.37f9860cb81b8c245d90.svg",
-    "main.49fb08a0.css.map": "/dmitro.github.io/static/css/main.49fb08a0.css.map",
-    "main.b6ed1f27.js.map": "/dmitro.github.io/static/js/main.b6ed1f27.js.map",
+    "main.025ac993.css.map": "/dmitro.github.io/static/css/main.025ac993.css.map",
+    "main.25a881c6.js.map": "/dmitro.github.io/static/js/main.25a881c6.js.map",
     "453.5ad74039.chunk.js.map": "/dmitro.github.io/static/js/453.5ad74039.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49fb08a0.css",
-    "static/js/main.b6ed1f27.js"
+    "static/css/main.025ac993.css",
+    "static/js/main.25a881c6.js"
   ]
 }
