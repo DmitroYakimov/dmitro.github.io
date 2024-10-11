@@ -155,6 +155,7 @@ const MyCalendar = () => {
       const color = selectedEvent2.color;
                 console.log(state.events.length);
                 const id = state.events.length;
+                setShowPopup2(false);
               return { events: [...state.events, { start, end, title, id, color }] };
               });
   };
