@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dmitro.github.io/static/css/main.025ac993.css",
-    "main.js": "/dmitro.github.io/static/js/main.25a881c6.js",
+    "main.js": "/dmitro.github.io/static/js/main.28559fd2.js",
     "static/js/453.5ad74039.chunk.js": "/dmitro.github.io/static/js/453.5ad74039.chunk.js",
     "index.html": "/dmitro.github.io/index.html",
     "static/media/bell-icon.svg": "/dmitro.github.io/static/media/bell-icon.37f9860cb81b8c245d90.svg",
     "main.025ac993.css.map": "/dmitro.github.io/static/css/main.025ac993.css.map",
-    "main.25a881c6.js.map": "/dmitro.github.io/static/js/main.25a881c6.js.map",
+    "main.28559fd2.js.map": "/dmitro.github.io/static/js/main.28559fd2.js.map",
     "453.5ad74039.chunk.js.map": "/dmitro.github.io/static/js/453.5ad74039.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.025ac993.css",
-    "static/js/main.25a881c6.js"
+    "static/js/main.28559fd2.js"
   ]
 }
